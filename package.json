@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/enrguefer/MIS-02GIT/issues"
   },
-  "homepage": "https://github.com/enrguefer/MIS-02GIT#readme"
+  "homepage": "https://github.com/enrguefer/MIS-02GIT#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
