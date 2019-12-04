@@ -5,7 +5,7 @@ const port = 3000;
 const BASE_API_PATH = "/api/v1"
 
 app.get('/',(request, response) => response.send('Hello world!'));
-app.listen(port, () => console.log(`Example app listen on port ${port}!`));
+app.listen(process.env.PORT || port, () => console.log(`Example app listen on port ${port}!`));
 
 
 //==========================================Ejercicio 3.1: GET===============================================//
