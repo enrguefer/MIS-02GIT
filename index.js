@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 const BASE_API_PATH = "/api/v1"
 
-app.get('/',(request, response) => response.send('Hello world!'));
+app.get('/',(request, response) => response.send('Hello world! Funciona Travis-ci'));
 app.listen(process.env.PORT || port, () => console.log(`Example app listen on port ${port}!`));
 
 
